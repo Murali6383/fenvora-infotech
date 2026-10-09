@@ -287,49 +287,90 @@ export default function Home() {
       {/* =========================================================
           WHO WE ARE
       ========================================================= */}
-      <Section>
-        <div className="max-w-3xl">
-          <p className="eyebrow">
-            Who We Are
-          </p>
+      
+{/* WHO WE ARE / ABOUT SECTION */}
+<section className="relative overflow-hidden bg-navy-950 py-20 sm:py-24">
+  <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:px-8">
 
-          <h2 className="h2">
-            Engineering Technology for Real-World Business.
-          </h2>
+    {/* Company Images */}
+    <div className="relative mx-auto w-full max-w-xl">
+      {/* Main company photo */}
+      <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-2xl">
+        <img
+          src="/images/company-office.jpeg"
+          alt="Fenvora Infotech company office"
+          className="h-[320px] w-full object-cover sm:h-[420px]"
+          loading="lazy"
+        />
+      </div>
 
-          <p className="mt-4 text-lg leading-8 text-slate-600">
-            Fenvora Infotech is a technology company focused on
-            building practical, scalable and business-driven
-            digital solutions.
+      {/* Secondary image: remove this block if you have only one photo */}
+      <div className="absolute -bottom-8 -right-3 w-40 overflow-hidden rounded-xl border-4 border-navy-950 shadow-xl sm:-right-6 sm:w-56">
+        <img
+          src="/images/company-team.jpeg"
+          alt="Fenvora Infotech team"
+          className="h-28 w-full object-cover sm:h-40"
+          loading="lazy"
+        />
+      </div>
+
+      {/* Decorative accent */}
+      <div className="pointer-events-none absolute -left-3 -top-3 -z-0 h-24 w-24 rounded-tl-2xl border-l-2 border-t-2 border-accent/50" />
+    </div>
+
+    {/* Company Information */}
+    <div className="pt-4 lg:pt-0">
+      <p className="eyebrow">Who We Are</p>
+
+      <h2 className="mt-4 text-3xl font-extrabold leading-tight text-white sm:text-4xl lg:text-5xl">
+        Technology That Moves{' '}
+        <span className="text-accent">Business Forward.</span>
+      </h2>
+
+      <p className="mt-6 leading-8 text-slate-400">
+        Fenvora Infotech delivers technology solutions designed
+        around business requirements. We focus on building
+        practical digital experiences, reliable software and
+        scalable applications that support business growth.
+      </p>
+
+      <p className="mt-4 leading-8 text-slate-400">
+        From web development and custom software to AI
+        integration and cloud solutions, our approach combines
+        modern technologies with clear planning and a focus
+        on business needs.
+      </p>
+
+      <div className="mt-8 grid gap-4 sm:grid-cols-2">
+        <div className="rounded-xl border border-white/10 bg-white/[0.035] p-4">
+          <h3 className="font-semibold text-white">
+            Business-Focused
+          </h3>
+          <p className="mt-2 text-sm leading-6 text-slate-400">
+            Solutions aligned with your goals and requirements.
           </p>
         </div>
 
-        {/* Company Strengths */}
-        <div className="mt-10 grid gap-6 md:grid-cols-3">
-          {cards.map(([number, title, description]) => (
-            <div
-              key={number}
-              className="card group transition duration-300 hover:-translate-y-1 hover:shadow-lg"
-            >
-              {/* Number */}
-              <span className="text-sm font-bold text-accent-dark">
-                {number}
-              </span>
-
-              {/* Title */}
-              <h3 className="mt-3 text-xl font-semibold text-navy-900">
-                {title}
-              </h3>
-
-              {/* Description */}
-              <p className="mt-2 leading-6">
-                {description}
-              </p>
-            </div>
-          ))}
+        <div className="rounded-xl border border-white/10 bg-white/[0.035] p-4">
+          <h3 className="font-semibold text-white">
+            Built for Growth
+          </h3>
+          <p className="mt-2 text-sm leading-6 text-slate-400">
+            Scalable technology designed for changing needs.
+          </p>
         </div>
-      </Section>
+      </div>
 
+      <Link
+        to="/about"
+        className="mt-8 inline-flex items-center rounded-lg bg-accent px-6 py-3 font-semibold text-navy-950 transition hover:bg-accent/90"
+      >
+        Discover Our Company
+        <ArrowRight size={17} className="ml-2" />
+      </Link>
+    </div>
+  </div>
+</section>
       {/* =========================================================
     HOW WE WORK
 ========================================================= */}
