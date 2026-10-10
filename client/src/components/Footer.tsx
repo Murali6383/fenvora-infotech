@@ -10,6 +10,6 @@ export default function Footer() {
       <div><Logo /><p className="mt-4 text-sm">Technology That Moves Business Forward.</p></div>
       {cols.map(([t, ls]) => (<div key={t}><h3 className="mb-4 text-sm font-semibold text-white">{t}</h3><ul className="space-y-2 text-sm">{ls.map(([l, to]) => <li key={to}><Link className="hover:text-accent" to={to}>{l}</Link></li>)}</ul></div>))}
       <div><h3 className="mb-4 text-sm font-semibold text-white">Connect</h3><ul className="space-y-2 text-sm">{social.map((s) => <li key={s}><a className="hover:text-accent" href="#" rel="noopener noreferrer">{s}</a></li>)}</ul></div>
-    </div><div className="border-t border-white/10 py-6 text-center text-xs">© 2026 Fenvora Infotech Pvt. Ltd. All Rights Reserved.</div></footer>
+    </div><div className="border-t border-white/10 py-6 text-center text-xs">© 2026 FENVARO Infotech Pvt. Ltd. All Rights Reserved.</div></footer>
   );
 }

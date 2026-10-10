@@ -52,7 +52,7 @@ export default function Navbar() {
         <Link
           to="/"
           className="flex shrink-0 items-center transition-opacity duration-200 hover:opacity-90"
-          aria-label="Fenvora Infotech Pvt. Ltd. Home"
+          aria-label="FENVARO Infotech Pvt. Ltd. Home"
         >
           <Logo />
         </Link>

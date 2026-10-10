@@ -161,7 +161,7 @@ export default function Process() {
             <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-2 shadow-2xl">
               <img
                 src="/images/company-office.jpeg"
-                alt="Fenvora Infotech office and technology workspace"
+                alt="FENVARO Infotech office and technology workspace"
                 className="h-[300px] w-full rounded-2xl object-cover sm:h-[390px]"
               />
 

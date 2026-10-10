@@ -3,7 +3,7 @@ import { Quote, Star } from 'lucide-react';
 const testimonials = [
   {
     quote:
-      'Fenvora understood our requirements clearly and delivered a professional digital solution that matched our business needs.',
+      'FENVARO understood our requirements clearly and delivered a professional digital solution that matched our business needs.',
     name: 'Arun Kumar',
     role: 'Founder',
     company: 'Sri Vinayaga Traders',
@@ -19,7 +19,7 @@ const testimonials = [
   },
   {
     quote:
-      'Fenvora provided a practical technology solution that helped us improve our digital presence and customer enquiries.',
+      'FENVARO provided a practical technology solution that helped us improve our digital presence and customer enquiries.',
     name: 'Priya Devi',
     role: 'Business Owner',
     company: 'Thamarai Enterprises',

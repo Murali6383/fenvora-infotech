@@ -1,4 +1,4 @@
-# Fenvora Infotech Pvt. Ltd. – Corporate Website
+# FENVARO Infotech Pvt. Ltd. – Corporate Website
 React + TS + Vite + Tailwind (client) · Node + Express + MongoDB (server)
 
 ## Run

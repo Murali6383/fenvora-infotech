@@ -70,7 +70,7 @@ export default function About() {
   return (
     <>
       <PageHero
-        label="ABOUT FENVORA"
+        label="ABOUT FENVARO"
         title="Building Technology With Purpose."
         text="We combine thoughtful engineering, modern technology, and a business-first mindset to create digital solutions that help organizations move forward."
       />
@@ -88,7 +88,7 @@ export default function About() {
             </h2>
 
             <p className="mt-6 leading-8 text-slate-600">
-              Fenvora Infotech Pvt. Ltd. focuses on software development and
+              FENVARO Infotech Pvt. Ltd. focuses on software development and
               digital solutions designed around real business needs. We aim
               to turn ideas into useful, accessible, and maintainable
               technology experiences.

@@ -28,7 +28,7 @@ const cards = [
 const testimonials = [
   {
     quote:
-      'Fenvora understood our requirements clearly and delivered a solution focused on our actual business needs.',
+      'FENVARO understood our requirements clearly and delivered a solution focused on our actual business needs.',
     name: 'Arun Kumar',
     role: 'Founder',
     company: 'Sri Vinayaga Traders',
@@ -44,7 +44,7 @@ const testimonials = [
   },
   {
     quote:
-      'Fenvora provided a practical technology solution that helped us improve our digital presence and customer enquiries.',
+      'FENVARO provided a practical technology solution that helped us improve our digital presence and customer enquiries.',
     name: 'Priya Devi',
     role: 'Business Owner',
     company: 'Thamarai Enterprises',
@@ -81,7 +81,7 @@ function HeroLogo() {
         {/* Company Logo */}
         <img
           src="/mainlogo.png"
-          alt="Fenvora Infotech Pvt. Ltd."
+          alt="FENVARO Infotech Pvt. Ltd."
           className="relative z-10 h-[400px] w-[400px] object-contain drop-shadow-[0_20px_45px_rgba(0,0,0,0.45)] transition duration-500 hover:scale-105"
         />
       </div>
@@ -225,7 +225,7 @@ export default function Home() {
 
             {/* Description */}
             <p className="fade-up mt-7 max-w-2xl text-lg leading-8 text-slate-400">
-              Fenvora Infotech builds reliable digital products,
+              FENVARO Infotech builds reliable digital products,
               intelligent applications and scalable technology
               solutions that help businesses innovate, automate
               and grow.
@@ -298,7 +298,7 @@ export default function Home() {
       <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-2xl">
         <img
           src="/images/company-office.jpeg"
-          alt="Fenvora Infotech company office"
+          alt="FENVARO Infotech company office"
           className="h-[320px] w-full object-cover sm:h-[420px]"
           loading="lazy"
         />
@@ -308,7 +308,7 @@ export default function Home() {
       <div className="absolute -bottom-8 -right-3 w-40 overflow-hidden rounded-xl border-4 border-navy-950 shadow-xl sm:-right-6 sm:w-56">
         <img
           src="/images/company-team.jpeg"
-          alt="Fenvora Infotech team"
+          alt="FENVARO Infotech team"
           className="h-28 w-full object-cover sm:h-40"
           loading="lazy"
         />
@@ -328,7 +328,7 @@ export default function Home() {
       </h2>
 
       <p className="mt-6 leading-8 text-slate-400">
-        Fenvora Infotech delivers technology solutions designed
+        FENVARO Infotech delivers technology solutions designed
         around business requirements. We focus on building
         practical digital experiences, reliable software and
         scalable applications that support business growth.
